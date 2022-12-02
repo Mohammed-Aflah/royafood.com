@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+img.slide{
+    height: 600px;
+    
+}
+.text{
+    text-align: center;
+}
+.navbar{
+    background:linear-gradient(60deg,rgb(192, 70, 94),lightgreen,lightblue,pink);
+}
+.container-fluid{
+    background:linear-gradient(45deg,tomato,pink,rgb(132, 132, 184),rgb(168, 207, 168),lightblue);
+}
+.row{
+    width: 100%;
+}
+@media(max-width:767px){
+    .row{
+        width: 22rem;
+        margin: auto;
+    }
+    iframe{
+        width: auto;
+    }
+
+}
